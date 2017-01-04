@@ -1,4 +1,11 @@
 
+h1 {
+font-size: 175%;
+text-align: center;
+margin-bottom: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
 @media (min-width: 1200px) {
   .col-lg-4 {
     float: left;
@@ -57,26 +64,18 @@
     width: 96%;
 }
 }
-}
-
-.h1 {
-font-size: 175%;
-text-align: center;
-margin-bottom: 15px;
-font-family: Arial, Helvetica, sans-serif;
-}
 
 .title {
-  width: 100px;
+  align-self: right;
+  width: 120px;
   text-align: center;
   border: 1px solid black;
   padding: 5px;
   background-color: blue;
   font-size: 125%;
   position: relative;
-  right: 0px;
-  top: 0px;
+  left: calc(100% - 131px);
+  top: -1px;
   margin: 0px; 
-  margin: 0px
 }
 
