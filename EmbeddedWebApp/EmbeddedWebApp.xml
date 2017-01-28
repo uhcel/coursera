@@ -32,7 +32,7 @@
     <script type="text/javascript">
         // initialize the gadget running the init handler defined in EmbeddedWebApp.js
         gadgets.HubSettings.onConnect = function () {
-            finesse.modules.EmbeddedWebAppGadget.init("https://www.google.com");
+            finesse.modules.EmbeddedWebAppGadget.init("https://www.cisco.com/");
         };
     </script>
 ]]>
