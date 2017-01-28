@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+
+<ModulePrefs title="EmbeddedWebApp Gadget"
+        description="EmbeddedWebApp Gadget">
+
+    <Require feature="settitle" />
+    <Require feature="dynamic-height" />
+    <Require feature="pubsub-2" />
+    <Require feature="setprefs" />
+    
+</ModulePrefs>
+
+<Content type="html">
+<![CDATA[
+    <!-- Styling -->
+    <link rel="stylesheet" href="EmbeddedWebApp.css" type="text/css" />
+    
+    <!-- jQuery 1.5 -->
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+
+    <!-- Finesse Library -->
+    <script type="text/javascript" src="finesse-10.0.1.js"></script>
+
+    <!-- Gadget Business Logic -->
+    <script type="text/javascript" src="EmbeddedWebApp.js"></script>
+
+    <body>
+        <div id="displayOut"></div>
+    </body>
+
+    <script type="text/javascript">
+        // initialize the gadget running the init handler defined in EmbeddedWebApp.js
+        gadgets.HubSettings.onConnect = function () {
+            finesse.modules.EmbeddedWebAppGadget.init("http://www.programocca.com/");
+        };
+    </script>
+]]>
+</Content>
+</Module>
