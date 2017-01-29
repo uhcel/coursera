@@ -28,7 +28,7 @@
     <body>
         <div id="displayOut"></div>
                 <body>
-                <div>
+                <div id="displayOut">
                     <strong>Tutaj zmiana statusu dla agentow</strong>
                 </div>
             </body>
