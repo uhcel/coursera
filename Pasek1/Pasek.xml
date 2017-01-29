@@ -20,22 +20,12 @@
             <!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
             <!--[if gt IE 8]>      <html> <!--<![endif]-->
             <head>
-                <!-- Styling -->
-                <link rel="stylesheet" href="bootstrap/2.3.2/css/bootstrap.min.css" type="text/css" />
-      
-                 <!-- jQuery -->
-                <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-
-                <!-- Bootstrap -->
-                <script type="text/javascript" src="bootstrap/2.3.2/js/bootstrap.min.js"></script>
-               
-                <!-- Finesse Library -->
-                <script type="text/javascript" src="finesse-10.0.1.js"></script>
+    
             
             </head>
 
             <body class="claro">
-                <div id="successMsg" class="alert alert-success" style="display: none">
+                <div>
                     <strong>Chat - pasek statusu chata (zmiana statusu informajce o wiadomosci)</strong>
                 </div>
             </body>
