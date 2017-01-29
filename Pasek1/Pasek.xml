@@ -24,7 +24,9 @@
                 <link rel="stylesheet" href="bootstrap/2.3.2/css/bootstrap.min.css" type="text/css" />
                 <link rel="stylesheet" href="CallRecording.css" type="text/css" />
 
-           
+                 <!-- jQuery -->
+                <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+
                 <!-- Bootstrap -->
                 <script type="text/javascript" src="bootstrap/2.3.2/js/bootstrap.min.js"></script>
                
