@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-    <ModulePrefs title="Silent Monitored"
-        description="Silent Monitored">
+    <ModulePrefs title="Call Recording"
+        description="Call Recording">
         <Require feature="settitle" />
         <Require feature="dynamic-height" />
         <Require feature="pubsub-2" />
@@ -22,33 +22,28 @@
             <head>
                 <!-- Styling -->
                 <link rel="stylesheet" href="bootstrap/2.3.2/css/bootstrap.min.css" type="text/css" />
-                <link rel="stylesheet" href="SilentMonitored.css" type="text/css" />
+                <link rel="stylesheet" href="CallRecording.css" type="text/css" />
 
                 <!-- jQuery -->
-                <script type="text/javascript" src="/desktop/assets/js/jquery.min.js"></script>
-
+                <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+            
                 <!-- Bootstrap -->
                 <script type="text/javascript" src="bootstrap/2.3.2/js/bootstrap.min.js"></script>
-
+               
                 <!-- Finesse Library -->
-                <script type="text/javascript" src="/desktop/assets/js/finesse.js"></script>
+                <script type="text/javascript" src="finesse-10.0.1.js"></script>
             
-                <!-- Gadget Business Logic -->
-                <script type="text/javascript" src="SilentMonitored.js"></script>
             </head>
 
-            <body>
-                <div id="coastClearMsg" class="alert alert-success" style="display: none">
-                    <img src="no-see.png">&nbsp;&nbsp;<strong>All Clear.&nbsp;</strong>Coast is clear, you are not being monitored.
-                </div>
-                <div id="yourBeingWatchedMsg" class="alert alert-warning" style="display: none">
-                    <img src="see.png">&nbsp;&nbsp;<strong>Caution!!!&nbsp;</strong>Somebody is listening to this conversation.  Be on your best behavior!
+            <body class="claro">
+                <div id="successMsg" class="alert alert-success" style="display: none">
+                    <strong>Chat - pasek statusu chata (zmiana statusu informajce o wiadomosci)</strong>
                 </div>
             </body>
-            
+
             <script type="text/javascript">
                 gadgets.HubSettings.onConnect = function () {
-                    finesse.modules.SilentMonitoredGadget.init();
+                    finesse.modules.CallRecordingGadget.init();
                 };
             </script>
         ]]>
