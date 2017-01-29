@@ -26,7 +26,6 @@
     <script type="text/javascript" src="EmbeddedWebApp.js"></script>
 
     <body>
-        <div id="displayOut"></div>
                 <body>
                 <div id="displayOut">
                     <strong>Tutaj zmiana statusu dla agentow</strong>
