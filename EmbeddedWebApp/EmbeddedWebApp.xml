@@ -27,6 +27,11 @@
 
     <body>
         <div id="displayOut"></div>
+                <body>
+                <div>
+                    <strong>Tutaj zmiana statusu dla agentow</strong>
+                </div>
+            </body>
     </body>
 
     <script type="text/javascript">
