@@ -15,16 +15,13 @@
     <Content type="html">
         <![CDATA[
             <!DOCTYPE html>
-            <!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-            <!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
-            <!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
-            <!--[if gt IE 8]>      <html> <!--<![endif]-->
+
             <head>
     
             
             </head>
 
-            <body class="claro">
+            <body>
                 <div>
                     <strong>Chat - pasek statusu chata (zmiana statusu informajce o wiadomosci)</strong>
                 </div>
