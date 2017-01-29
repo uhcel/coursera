@@ -11,6 +11,11 @@ body {
     border: 0px solid;
 }
 #displayOut {
-background-color: grey;
-border: 1px solid;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
 }
