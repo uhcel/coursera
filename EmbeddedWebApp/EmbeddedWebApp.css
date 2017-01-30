@@ -9,6 +9,7 @@ body {
     width:100%;
     height:650;
     border: 0px solid;
+    padding: 0px;
 }
 #displayOut {
     background: grey;
@@ -18,7 +19,7 @@ body {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width:100%;
+  width:90%;
   padding: 5px;
   overflow: hidden;
   border: 1px solid rgba(127,127,127,1);
