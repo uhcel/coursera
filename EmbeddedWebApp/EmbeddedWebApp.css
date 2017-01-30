@@ -18,8 +18,8 @@ body {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  width: 160px;
-  padding: 20px;
+  width:100%;
+  padding: 5px;
   overflow: hidden;
   border: 1px solid rgba(127,127,127,1);
   -webkit-border-radius: 12px;
