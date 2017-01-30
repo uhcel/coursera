@@ -26,17 +26,13 @@
     <script type="text/javascript" src="EmbeddedWebApp.js"></script>
 
     <body>
-                <body>
-                <div id="displayOut">
-                    <strong>Tutaj zmiana statusu dla agentow</strong>
-                </div>
-            </body>
+        <div id="displayOut"></div>
     </body>
 
     <script type="text/javascript">
         // initialize the gadget running the init handler defined in EmbeddedWebApp.js
         gadgets.HubSettings.onConnect = function () {
-            finesse.modules.EmbeddedWebAppGadget.init("https://www.cisco.com/");
+            finesse.modules.EmbeddedWebAppGadget.init("https://www.cisco.com");
         };
     </script>
 ]]>
