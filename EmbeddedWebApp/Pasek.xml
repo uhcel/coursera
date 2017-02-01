@@ -15,13 +15,18 @@
     <link rel="stylesheet" href="EmbeddedWebApp.css" type="text/css" />
     
     <!-- jQuery 1.5 -->
-    <script type="text/javascript" src="jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 
     <!-- Finesse Library -->
-    <script type="text/javascript" src="finesse-9.1.1.js"></script>
+    <script type="text/javascript" src="finesse-10.0.1.js"></script>
 
     <!-- Gadget Business Logic -->
     <script type="text/javascript" src="EmbeddedWebApp.js"></script>
+
+    <body>
+        <div id="displayOut"></div>
+    </body>
+
 
     <body>
                 <body>
