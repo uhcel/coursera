@@ -1,6 +1,6 @@
 var finesse = finesse || {};
 
-/** @namespace */
+/** @namespce */
 finesse.modules = finesse.modules || {};
 finesse.modules.EmbeddedWebAppGadget = (function ($) {
 	var _clientLogger = finesse.cslogger.ClientLogger;   // declare _clientLogger
