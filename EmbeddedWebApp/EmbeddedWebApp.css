@@ -23,7 +23,7 @@ body {
   padding: 5px;
   overflow: hidden;
   border: 1px solid rgba(127,127,127,1);
-  -webkit-border-radius: 12px;
+  -webkit-border-radius: 4px;
   border-radius: 12px;
   font: normal 16px/1 Tahoma, Geneva, sans-serif;
   color: rgba(0,0,0,1);
