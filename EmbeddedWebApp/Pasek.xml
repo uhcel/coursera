@@ -31,7 +31,8 @@
     <body>
                 <body>
                 <div id="pasek" class="enjoy-css">
-                   Tutaj zmiana statusu dla agentow (Ready/Not Ready), informacje o wiadomosciach i statusie czy zalogowany
+                   Tutaj zmiana statusu dla agentow (Ready/Not Ready), informacje o wiadomosciach i statusie czy zalogowany <br>
+                  <a href="https://10.60.5.45/cuadmin/">Team Skills</a>   
                 </div>
             </body>
     </body>
